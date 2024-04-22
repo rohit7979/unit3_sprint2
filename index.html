@@ -11,6 +11,8 @@
         body{
         background-color: #090B0E;
         font-family: sans-serif;
+        color: white;
+        text-align: center;
         }
         header{
             width: 100%;
@@ -65,6 +67,69 @@
             cursor: pointer;
         }
 
+        .d1{
+            padding-top: 120px;
+        }
+        .d1>h1{
+            font-size: 70px;
+            margin: 0;
+        }
+        .d1>h1:nth-of-type(2){
+            color: #6007E2;
+        }
+        .d1>h3{
+            color: #A1A1A1;
+        }
+        #btn{
+            width: 40vw;
+            margin-left: 30%;
+            margin-top: 70px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            padding: 10px;
+            border: 5px solid #377dff;
+            border-radius: 15px;
+        }
+
+        #btn>button{
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #6007E2;
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+        }
+        #btn>button:hover{
+            background-color: #822fff;
+        }
+      
+        .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 5,
+        'wght' 100,
+        'GRAD' 0,
+        'opsz' 50;
+        color: green;
+
+    }
+    .d2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        color: #A1A1A1;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .d2>button{
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
     </style>
 </head>
 <body>
@@ -82,8 +147,33 @@
             </div>
     </header>
         <main>
+            <div class="d1">
+                <h1>Get your</h1>
+                <h1>AI Generated Website</h1>
+                <h1>In Seconds</h1>
+                <h3>Give it a try right below, without having to sign up!</h3>
+                <div id="btn">
+                    <button>Generate *</button>
+                </div>
 
-            
+                <div class="d2">
+                    <p>Excellent <span class="material-symbols-outlined">
+                        star_rate
+                        </span> <span class="material-symbols-outlined">
+                            star_rate
+                            </span><span class="material-symbols-outlined">
+                                star_rate
+                                </span><span class="material-symbols-outlined">
+                                    star_rate
+                                    </span> 4.8 out of 5 based on 85 reviews</p>
+                    <button><span class="material-symbols-outlined">
+                        star_rate
+                        </span>Trustpilot</button>
+                </div>
+            </div>
+            <div>
+                
+            </div>
         </main>
 </body>
 </html>
