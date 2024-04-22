@@ -88,7 +88,7 @@
             justify-content: end;
             align-items: center;
             padding: 10px;
-            border: 5px solid #377dff;
+            border: 3px solid #377dff;
             border-radius: 15px;
         }
 
@@ -128,6 +128,86 @@
     .d2>button{
         border-radius: 10px;
         cursor: pointer;
+    }
+
+    .d3{
+        text-align: left;
+        margin:10% ;
+    }
+    #box{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 10px;
+        margin-top: 30px;
+    }
+    #box>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 280px;
+        height: 240px;
+        padding: 25px;
+        background-color: #18181B;
+        margin: 20px;
+        border-radius: 10px;
+    }
+    
+    .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 800,
+    'GRAD' 0,
+    'opsz' 40;
+        color: #822fff;
+    }
+    .d3>h3,h1{
+        margin-left: 5%;
+    }
+    .d3>h3{
+        color: #6500fc;
+    }
+    .d3>h1{
+        font-size: 40px;
+        margin: 0;
+        margin-left: 5%;
+    }
+
+    #box>div>p:nth-of-type(2){
+        color: #A1A1A1;
+    }
+
+    #box>div>button{
+            width: 35%;
+            padding: 10px;
+
+            font-weight: bold;
+            background-color: #18181B;
+            border: 1px solid gray;
+            border-radius: 8px;
+            color: white;
+            cursor: pointer;
+    }
+
+    #box>div>button:hover{
+        border: 1px solid  #6500fc;
+        transition: all 0.2s;
+    }
+    #box>div>h4{
+        margin: 0;
+    }
+    #low{
+        margin: 100px;
+        padding-left: 80px;
+        padding-right: 80px;
+        text-align: center;
+    }
+    #low>p{
+        font-size: 20px;
+        color: #A1A1A1;
     }
 
     </style>
@@ -171,8 +251,69 @@
                         </span>Trustpilot</button>
                 </div>
             </div>
-            <div>
-                
+            <div class="d3">
+                <h3>FEATURES</h3>
+                <h1>Generating your website is just the start.</h1>
+                <h1>With Umso you can go all the way.</h1>
+                <div id="box">
+                    <div >
+                        <p><span class="material-symbols-outlined">
+                            show_chart
+                            </span></p>
+                        <h4>Analytics</h4>
+                        <p>Monitor the performance of your startup and base decisions on data. Get website analytics with no extra setup.</p>
+                        <button>Learn More</button>
+                    </div>
+
+                    <div>
+                        <p><span class="material-symbols-outlined">
+                            send
+                            </span></p>
+                        <h4>Custom Forms</h4>
+                        <p>Don't launch to crickets – build an audience for your startup. Collect leads directly within Umso, without any 3rd-party services.</p>
+                        <button>Learn More</button>
+                    </div>
+
+                    <div>
+                        <p><span class="material-symbols-outlined">
+                            supervisor_account
+                            </span></p>
+                        <h4>User Management</h4>
+                        <p>Enable collaborative work by giving guests access to your sites, projects & other resources.</p>
+                        <button>Learn More</button>
+                    </div>
+
+                    <div>
+                        <p><span class="material-symbols-outlined">
+                            edit
+                            </span></p>
+                        <h4>Blogs</h4>
+                        <p>Produce new content, extend your reach, start appearing on Google. Add a simple blog to your site with a few clicks.</p>
+                        <button>Learn More</button>
+                    </div>
+
+                    <div>
+                        <p><span class="material-symbols-outlined">
+                            cookie
+                            </span></p>
+                        <h4>Cookie Solution</h4>
+                        <p>Set up cookie banners that help you respect your visitor's privacy. This is especially important for Europe.</p>
+                        <button>Learn More</button>
+                    </div>
+
+                    <div>
+                        <p><span class="material-symbols-outlined">
+                            language
+                            </span></p>
+                        <h4>Multilingual Sites</h4>
+                        <p>Easily manage your website in multiple languages. With this feature you can offer your site to everyone.</p>
+                        <button>Learn More</button>
+                    </div>
+                </div>
+                <div id="low">
+                    <p>"Umso is far away the easiest Landing page builder I've ever used. It is very intuitive and you can set up a test for a new project in less than one hour without any knowledge in coding. Even if it is simple, it is very robust and there all options needed."</p>
+                    <h5>Pierre Lilien</h5>
+                </div>
             </div>
         </main>
 </body>
